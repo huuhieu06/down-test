@@ -8,7 +8,6 @@ struct tths{
 };  
 
 void nhaptt(tths &hs){
-    cout<<"Nhap ho va ten: ";
     getline(cin, hs.hoten);
     cout<<"Nhap diem Toan: ";
     cin>>hs.toan; 
