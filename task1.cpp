@@ -13,7 +13,7 @@ struct hoadon {
 };
 void nhap(hoadon &kh){
     int chon;
-    cout <<"Nhập tên khách hàng : ";
+    cout <<"Nhập tên ";
     getline(cin,kh.hoten);
     cout <<"Chọn lọai khách hàng : (1.NGHÈO 2.CẬN NGHÈO  3.BÌNH DÂN ) " ;
     cin >> chon;
